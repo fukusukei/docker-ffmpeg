@@ -10,4 +10,4 @@ services:
     tty: true
     restart: always
     volumes:
-      - $PWD:/workspace
+      - $PWD/volume:/workspace
